@@ -1,6 +1,6 @@
 import pandas as pd
 from IPython.display import display
-from swat_functions import setup_env, get_player, get_feature, get_translation, get_class_ids, swat
+from Code.swat_functions import setup_env, get_player, get_feature, get_translation, get_class_ids, swat
 
 weights, means, stds = setup_env()
 
@@ -77,7 +77,7 @@ for draft in drafts:
 
         excel_dict[sheet] = (df)
         
-    with pd.ExcelWriter(f"Excels/{draft}_Draft.xlsx", engine="openpyxl") as writer:
+    with pd.ExcelWriter(f"Data/{draft}_Draft.xlsx", engine="openpyxl") as writer:
         for sheetname in excel_dict.keys():
             df = excel_dict[sheetname]
             df = df.sort_values(by='SWAT', ascending=False)
