@@ -1,5 +1,5 @@
 # Weighted k-Nearest Neighbours NHL Equivalency
-This work aims to highlight the core issue with traditional NHLe models, overreliance on static league equivalencies, as they often underrepresent the variance in the way that playstyle and skill influence translatability to the NHL.
+This work aims to highlight the core issue with traditional NHLe models, the overreliance on static league equivalencies, as it often underrepresents the variance in the way that playstyle and skill influence translatability to the NHL.
 
 This is an extension of [my previous project]([url](https://github.com/SeanBoyd13/Similarity-Weighted-Translation-Projection-Model)) recreated and further optimized as I have continued learning of new ways to improve upon my prior methods while attending McGill University.
 
