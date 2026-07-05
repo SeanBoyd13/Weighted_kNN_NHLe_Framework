@@ -19,4 +19,4 @@ Concurrently, I am working to download InStat's advanced metric data en masse fo
 - **excel (Python):** Python file containing the script which generates excel sheets for each previous NHL Draft, computing NHLe/SWAT for each draft year relative season for all prospects of the draft class.
 
 ## Data Contents
-- **2026_Draft (Excel):** Excel file containing all prospects' NHLe/SWAT for each season since their draft year (inclusive), ranked by greatest predicted NHL point total.
+- **2025_Draft (Excel):** Excel file containing all prospects' NHLe/SWAT for each season since their draft year (inclusive), ranked by greatest predicted NHL point total.
